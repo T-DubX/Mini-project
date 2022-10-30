@@ -3,15 +3,15 @@ let count = 0;
 
 const next = document.querySelector('.next');
 next.onclick = nextFunction;
-next.addEventListener('touchstart', nextFunction);
+// next.addEventListener('touchstart', nextFunction);
 
 const prev = document.querySelector('.prev');
 prev.onclick = prevFunction;
-prev.addEventListener('touchstart', prevFunction)
+// prev.addEventListener('touchstart', prevFunction);
 
 const reset = document.querySelector('.reset');
 reset.onclick = resetFunction;
-reset.addEventListener('touchstart', resetFunction);
+// reset.addEventListener('touchstart', resetFunction);
 
 function nextFunction() {
     if (count == images.length - 1) {
